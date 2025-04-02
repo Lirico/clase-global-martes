@@ -17,3 +17,9 @@ Los comandos se ejecutan a traves de una consola. -> CMD -> GIT BASH -> Terminal
 - git add <archivo> -> Registrar cambios del tal archivo.
 - git add . -> Registrar todos los cambios de todos los archivos
 - git status -> El estado de registro de mis archivos
+
+- git commit -m <nombre-commit> -> Crear un backup (una version)
+- git log -> Nos muestra la lista de commits
+
+- git push origin <rama> -> Enviar informacion al respositorio en la rama de origen <rama>.
+- git push -> Enviar informacion al repo en una rama que no es de origen.
