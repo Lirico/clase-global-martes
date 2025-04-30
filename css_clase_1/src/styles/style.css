@@ -1,0 +1,59 @@
+/***** SELECTOR DE UNIVERSAL *****/
+* {}
+
+
+/***** SELECTOR DE ETIQUIETA *****/
+/* p {
+    color: red;
+} */
+
+/***** SELECTOR DE CLASE *****/
+/* .arriba {
+    color: yellow;
+}
+.abajo {
+    color: green;
+} */
+
+/***** SELECTOR DE ID *****/
+/* #unico {
+    color: pink;
+} */
+
+
+/******************************************** SELECTORES COMBINADOS *****************************************/
+
+/********* SELECTOR DE HIJO **********/
+/* .perritos > h2 {
+    color: orange;
+} */
+
+/********* SELECTOR DE DESCENDIENTES **********/
+/* .perritos h2 {
+    color: orange;
+} */
+
+
+/********* SELECTOR DE HERMANOS **********/
+/* h2 ~ p {
+    color: red;
+} */
+
+/********* SELECTOR DE HERMANO ADYASCENTE **********/
+/* h2 + p {
+    color: blueviolet;
+} */
+
+/********* SELECTOR DE ATRIBUTO **********/
+/* input[type="rojo"] {
+    color: red;
+} */
+
+/* 
+    INVESTIGAR SELECTOR COMBINADO DE COLUMNAS
+*/
+
+h1, h2, p {
+    color: green;
+}
+
