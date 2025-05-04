@@ -22,3 +22,17 @@ Es importante conocerlas y saber que disponemos de esas herramientas.
 - Para clonar el repo **git clone "enlace al repo"**
 - Para bajar descargar nuevos cambios una vez clonado **git pull** estando parado en la rama de la cual se quieren bajar cambios.
 - Para cambiarte de rama **git checkout "nombre de rama"**
+
+
+
+
+
+
+
+
+
+
+
+
+
+....
