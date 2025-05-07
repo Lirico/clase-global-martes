@@ -1,0 +1,50 @@
+/******** COLORES ********/
+
+/* 
+
+    RGB -> rgb(13, green, blue) -> 0 - 255
+
+    HEXADECIMAL -> 0 1 2 3 4 5 6 7 8 9 A B C D E F
+
+    HSL -> Hue (matiz), Saturation, Lightness (brillo)
+            0 - 360      0 - 100%         0 - 100%
+
+*/
+
+/*********** OPACIDAD **************/
+/* div {
+    width: 500px;
+    height: 500px;
+    background-color:rgba(105, 31, 117, 0.5);
+}
+
+.hijo {
+    width: 150px;
+    height: 150px;
+    background-color: orange;
+} */
+
+.container {
+  width: 500px;
+  height: 500px;
+  background-image: url(https://www.cocinadelirante.com/sites/default/files/images/2024/06/hamburguesa-con-tocino.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 30% 50%;
+
+  & .filtro {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+
+    /* ESTO NO ES PARA HOY */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & p {
+      font-size: 2.7rem;
+      color: white;
+    }
+  }
+}
