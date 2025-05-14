@@ -1,0 +1,21 @@
+/********* MODELO DE CAJAS **********/
+/* 
+    El modelo de cajas es una caracterista que nos permite
+    definir un contendor basado en 4 propiedades:
+     - Contenido (texto u otras etiquetas)
+     - Relleno (padding) Es todo aquello que no ocupa el contenido
+     - Borde (border) 
+     - Margen (margin)
+*/
+
+/* .box {
+    height: 300px;
+    width: 300px;
+    background-color: orange;
+    display: inline-block;
+}
+.box2 {
+    height: 300px;
+    width: 300px;
+    background-color: purple;
+} */
