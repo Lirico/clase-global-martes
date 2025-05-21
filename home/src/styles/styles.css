@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
+
+/***************** CUSTOM PROPERTIES *****************/
+:root {
+    --primary-color: rgb(85, 164, 85);
+    --primary-alpha-color: rgba(85, 164, 85, 0.8);
+    --secondary-color: rgb(120, 95, 68);
+    --white-color: rgb(255, 255, 255);
+    --primary-font: 'Poller One', cursive;
+}
+
+/***************** RESET *****************/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 16px;
+}
+body {
+    font-family: var(--primary-font);
+    overflow-x: hidden;
+    background-image: url("https://wallpapercave.com/wp/wp6850352.jpg");
+}
+a {
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+/***************** UTILITIES *****************/
+.btn {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    line-height: 0;
+    font-family: var(--primary-font);
+    height: 3.3rem;
+    transition: 0.3s;
+    width: 200px;
+}
+.btn:hover {
+    background-color: var(--primary-alpha-color);
+}
+
+/*********** SITE STYLES ***********/
+.nav_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2%;
+    position: fixed;
+    width: 100%;
+    transition: 0.3s;
+
+    & .nav_logo {
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+    }
+
+    & .nav_menu {
+        display: flex;
+        column-gap: 50px;
+
+        & a {
+            transition: 0.3s;
+        }
+        & a:hover {
+            color: var(--secondary-color);
+        }
+    }
+}
+.nav_active {
+    background-color: var(--primary-color);
+}
+
+.home {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 40px;
+    padding-left: 2%;
+
+    & h1 {
+        font-size: 5rem;
+        color: var(--white-color);
+
+        & span {
+            color: var(--primary-color);
+        }
+    }
+}
+
+.vacia {
+    background-color: var(--white-color);
+    height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+img {
+    width: 60px;
+}
