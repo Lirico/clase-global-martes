@@ -63,6 +63,10 @@ a {
         display: flex;
         align-items: center;
         column-gap: 10px;
+
+        & img {
+            width: 60px;
+        }
     }
 
     & .nav_menu {
@@ -121,6 +125,3 @@ a {
 
 
 
-img {
-    width: 60px;
-}
