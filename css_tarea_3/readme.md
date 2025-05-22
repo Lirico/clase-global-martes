@@ -6,7 +6,7 @@ Este entregable tiene como objetivo practicar el nuevo concepto que hemos aprend
 
 - Replicar el siguiente modelo de header: 
 <p align="center">
-  <img src="./assets/images/modelo-header.png" />
+  <img src="./navbar.png" />
 </p>
 
 ## Opcional:
