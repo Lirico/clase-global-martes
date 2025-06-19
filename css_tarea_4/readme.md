@@ -4,7 +4,7 @@ Este entregable tiene como objetivo practicar los nuevos conceptos que hemos apr
 
 ## Consigna:
 
-- Replicar el siguiente modelo de header: 
+- Replicar el siguiente modelo de footer: 
 <p align="center">
   <img src="./assets/images/modelo-footer.png" />
 </p>
